@@ -1,15 +1,9 @@
-@media screen and (max-width: 400px) {
-  #title_message {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-    
-  }
-}
- #title_message{
-   
-    color: blue;
-  }
+    h1 {display: block;}
+    h2 {display: none;}
+
+    @media screen and (max-width: 768px) {
+
+    h1 {display: none;}
+    h2 {display: block;}
+
+    }
