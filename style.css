@@ -1,9 +1,10 @@
     h1 {display: block;}
-    h2 {display: block;}
-
-    @media screen and (max-width: 500px) {
+    h2 {display: none;}
+    @media screen and (max-device-width:500px) 
+     {
 
     
-    h2 {display: none;}
+    h1 {display: none;}
+    h2{display: block;}
 
     }
