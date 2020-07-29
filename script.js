@@ -43,5 +43,5 @@ function readData(){
     .catch(function(){
     	console.log("error!");
     })
-    setTimeout(readData,43200000);//updates every 12hrs
+    setTimeout(readData,43300000);//updates every 12hrs
 }
