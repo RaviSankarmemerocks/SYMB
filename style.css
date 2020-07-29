@@ -1,10 +1,15 @@
-    h1 {display: block;}
-    h2 {display: none;}
+    .onlyondesktop {display: block;
+    	margin-left: 50px;
+    	margin-right: 50px;}
+    	.onlyondesktop1 {display: block;
+    	margin-left: 50px;
+    	margin-right: 50px;}
+    
     @media screen and (max-device-width:500px) 
      {
 
     
-    h1 {display: none;}
-    h2{display: block;}
+    .onlyondesktop1 {display: none;}
+   
 
     }
